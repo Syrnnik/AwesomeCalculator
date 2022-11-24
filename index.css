@@ -1,0 +1,186 @@
+html,
+body {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: "Montserrat";
+    animation: showing 1.5s;
+}
+
+@keyframes showing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 44%;
+    text-align: center;
+    color: #2f2f31;
+}
+
+.title {
+    margin-bottom: 5%;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.desc {
+    width: 75%;
+    font-size: 32px;
+}
+
+.change-theme {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.theme-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    height: 750px;
+    width: 500px;
+    border-radius: 60px;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2f31;
+    height: 160px;
+    width: 80%;
+    border-radius: 30px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aabbe6;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.numbers span {
+    width: 90%;
+    text-align: right;
+    font-family: "Digital Display" !important;
+    font-size: 90px;
+    font-weight: 500;
+    color: #3e3e3e;
+    letter-spacing: 4px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.sect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.mem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2f31;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.clr {
+    width: 265px;
+}
+
+.del {
+    margin-bottom: 20px;
+}
+
+.plus {
+    height: 170px;
+}
+
+.btn span {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.frog {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.frog-desc {
+    margin-top: 5%;
+    font-size: 42px;
+    color: #fff;
+}
